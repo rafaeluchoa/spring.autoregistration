@@ -1,0 +1,16 @@
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\obj\Debug\ResolveAssemblyReference.cache
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\Spring.AutoRegistration.Test.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\Spring.AutoRegistration.Test.pdb
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\Common.Logging.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\FluentAssertions.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\nunit.framework.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\Spring.AutoRegistration.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\Spring.Core.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\Spring.AutoRegistration.pdb
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\FluentAssertions.pdb
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\FluentAssertions.xml
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\nunit.framework.xml
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\Spring.Core.pdb
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\Spring.Core.xml
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\obj\Debug\Spring.AutoRegistration.Test.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\obj\Debug\Spring.AutoRegistration.Test.pdb

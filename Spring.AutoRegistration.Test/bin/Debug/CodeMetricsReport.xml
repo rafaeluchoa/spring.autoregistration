@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="10.0">
+  <Targets>
+    <Target Name="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\bin\Debug\Spring.AutoRegistration.Test.dll">
+      <Modules>
+        <Module Name="Spring.AutoRegistration.Test.dll" AssemblyVersion="1.0.0.0" FileVersion="1.0.0.0">
+          <Metrics>
+            <Metric Name="MaintainabilityIndex" Value="95" />
+            <Metric Name="CyclomaticComplexity" Value="28" />
+            <Metric Name="ClassCoupling" Value="22" />
+            <Metric Name="DepthOfInheritance" Value="2" />
+            <Metric Name="LinesOfCode" Value="37" />
+          </Metrics>
+          <Namespaces>
+            <Namespace Name="Spring.AutoRegistration.Test.Example">
+              <Metrics>
+                <Metric Name="MaintainabilityIndex" Value="99" />
+                <Metric Name="CyclomaticComplexity" Value="6" />
+                <Metric Name="ClassCoupling" Value="4" />
+                <Metric Name="DepthOfInheritance" Value="2" />
+                <Metric Name="LinesOfCode" Value="6" />
+              </Metrics>
+              <Types>
+                <Type Name="IRepository">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="1" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="IRepository()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="SpecificRepository">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="1" />
+                    <Metric Name="DepthOfInheritance" Value="2" />
+                    <Metric Name="LinesOfCode" Value="1" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="SpecificRepository()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="IFoo">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="0" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members />
+                </Type>
+                <Type Name="Foo">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="1" />
+                    <Metric Name="ClassCoupling" Value="1" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="1" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Foo()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="IBar">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="100" />
+                    <Metric Name="CyclomaticComplexity" Value="0" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="0" />
+                    <Metric Name="LinesOfCode" Value="0" />
+                  </Metrics>
+                  <Members />
+                </Type>
+                <Type Name="Bar">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="95" />
+                    <Metric Name="CyclomaticComplexity" Value="3" />
+                    <Metric Name="ClassCoupling" Value="3" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="3" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="Foo.get() : IFoo">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="98" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Foo.set(IFoo) : void">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="Bar()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+              </Types>
+            </Namespace>
+            <Namespace Name="Spring.AutoRegistration.Test">
+              <Metrics>
+                <Metric Name="MaintainabilityIndex" Value="67" />
+                <Metric Name="CyclomaticComplexity" Value="22" />
+                <Metric Name="ClassCoupling" Value="21" />
+                <Metric Name="DepthOfInheritance" Value="1" />
+                <Metric Name="LinesOfCode" Value="31" />
+              </Metrics>
+              <Types>
+                <Type Name="TestAutoRegistration">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="67" />
+                    <Metric Name="CyclomaticComplexity" Value="22" />
+                    <Metric Name="ClassCoupling" Value="21" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="31" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="RegisterITypeName() : void" File="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\TestAutoRegistration.cs" Line="18">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="65" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="13" />
+                        <Metric Name="LinesOfCode" Value="6" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RegisterITypeNameAsSingleton() : void" File="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\TestAutoRegistration.cs" Line="35">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="63" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="13" />
+                        <Metric Name="LinesOfCode" Value="7" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="RegisterPropertiesByName() : void" File="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\TestAutoRegistration.cs" Line="53">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="64" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="17" />
+                        <Metric Name="LinesOfCode" Value="6" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="LoadXml() : void" File="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\TestAutoRegistration.cs" Line="74">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="76" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="6" />
+                        <Metric Name="LinesOfCode" Value="3" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="LoadXmlWithAutoRegistration() : void" File="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration.Test\TestAutoRegistration.cs" Line="87">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="61" />
+                        <Metric Name="CyclomaticComplexity" Value="5" />
+                        <Metric Name="ClassCoupling" Value="15" />
+                        <Metric Name="LinesOfCode" Value="8" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="TestAutoRegistration()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+              </Types>
+            </Namespace>
+          </Namespaces>
+        </Module>
+      </Modules>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

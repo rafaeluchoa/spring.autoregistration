@@ -1,0 +1,9 @@
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration\obj\Debug\ResolveAssemblyReference.cache
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration\bin\Debug\Spring.AutoRegistration.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration\bin\Debug\Spring.AutoRegistration.pdb
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration\bin\Debug\Common.Logging.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration\bin\Debug\Spring.Core.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration\bin\Debug\Spring.Core.pdb
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration\bin\Debug\Spring.Core.xml
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration\obj\Debug\Spring.AutoRegistration.dll
+E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration\obj\Debug\Spring.AutoRegistration.pdb

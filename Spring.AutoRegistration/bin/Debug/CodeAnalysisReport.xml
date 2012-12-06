@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft fxcop 10.0\Xml\FxCopReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration\bin\Debug\Spring.AutoRegistration.dll">
+   <Modules>
+    <Module Name="spring.autoregistration.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'Spring.AutoRegistration.dll' with a strong name key.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Mark 'Spring.AutoRegistration.dll' with CLSCompliant(true) because it exposes externally visible types.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Spring.AutoRegistration">
+       <Types>
+        <Type Name="AutoRegistration" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+           <Issue Certainty="95" Level="Error">The type name 'AutoRegistration' conflicts in whole or in part with the namespace name 'Spring.AutoRegistration'. Change either name to eliminate the conflict.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ExcludeSystemAssemblies()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.StartsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration" File="AutoRegistration.cs" Line="59">Because the behavior of 'string.StartsWith(string)' could vary based on the current user's locale settings, replace this call in 'AutoRegistration.ExcludeSystemAssemblies()' with a call to 'string.StartsWith(string, StringComparison)'. If the result of 'string.StartsWith(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+             <Issue Certainty="95" Level="Error" Path="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration" File="AutoRegistration.cs" Line="59">Because the behavior of 'string.StartsWith(string)' could vary based on the current user's locale settings, replace this call in 'AutoRegistration.ExcludeSystemAssemblies()' with a call to 'string.StartsWith(string, StringComparison)'. If the result of 'string.StartsWith(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="If" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="If" TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">Rename type 'If' so that it no longer conflicts with the reserved language keyword 'If'. Using a reserved keyword as the name of a type makes it harder for consumers in other languages to use the type.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ContainsType`1(System.Reflection.Assembly)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration" File="If.cs" Line="129">Consider a design where 'If.ContainsType&lt;T&gt;(this Assembly)' doesn't require explicit type parameter 'T' in any call to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DecoratedWith`1(System.Reflection.PropertyInfo)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration" File="If.cs" Line="22">Consider a design where 'If.DecoratedWith&lt;TAttr&gt;(this PropertyInfo)' doesn't require explicit type parameter 'TAttr' in any call to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DecoratedWith`1(System.Type)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration" File="If.cs" Line="11">Consider a design where 'If.DecoratedWith&lt;TAttr&gt;(this Type)' doesn't require explicit type parameter 'TAttr' in any call to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Implements`1(System.Type)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration" File="If.cs" Line="32">Consider a design where 'If.Implements&lt;TContract&gt;(this Type)' doesn't require explicit type parameter 'TContract' in any call to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ImplementsITypeName(System.Type)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.StartsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration" File="If.cs" Line="74">Because the behavior of 'string.StartsWith(string)' could vary based on the current user's locale settings, replace this call in 'If.ImplementsITypeName(this Type)' with a call to 'string.StartsWith(string, StringComparison)'. If the result of 'string.StartsWith(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Is`1(System.Type)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration" File="If.cs" Line="99">Consider a design where 'If.Is&lt;T&gt;(this Type)' doesn't require explicit type parameter 'T' in any call to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsAssignableFrom`1(System.Type)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="E:\rp\wsvs\Spring.AutoRegistration\Spring.AutoRegistration" File="If.cs" Line="109">Consider a design where 'If.IsAssignableFrom&lt;T&gt;(this Type)' doesn't require explicit type parameter 'T' in any call to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="InjectAttribute" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Warning">Seal 'InjectAttribute', if possible.</Issue>
+          </Message>
+          <Message TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+           <Issue Name="RemoveSetter" Certainty="95" Level="Error">Remove the property setter from 'InjectAttribute.Name' or reduce its accessibility because it corresponds to positional argument 'name'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Then" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Then" TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716" Status="Active" Created="2012-12-06 08:16:35Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">Rename type 'Then' so that it no longer conflicts with the reserved language keyword 'Then'. Using a reserved keyword as the name of a type makes it harder for consumers in other languages to use the type.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813">
+   <Name>Avoid unsealed attributes</Name>
+   <Description>Seal attribute types for improved performance. Sealing attribute types speeds up performance during reflection on custom attributes.</Description>
+   <Resolution Name="Default">Seal {0}, if possible.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182267(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019">
+   <Name>Define accessors for attribute arguments</Name>
+   <Description>Provide accessors for both named and positional arguments. Each positional argument on an attribute should declare a read-only property with the same name (but different casing). Each named argument should provide a read/write property with the same name (but different casing).</Description>
+   <Resolution Name="RemoveSetter">Remove the property setter from {0} or reduce its accessibility because it corresponds to positional argument {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182136(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="GenericMethodsShouldProvideTypeParameter" Category="Microsoft.Design" CheckId="CA1004">
+   <Name>Generic methods should provide type parameter</Name>
+   <Description>Methods where the type parameter cannot be inferred from the parameters and therefore has to be defined in the method call are too difficult to understand. Methods with a formal parameter typed as the generic method type parameter support inference. Methods with no formal parameter typed as the generic method type parameter don't support inference.</Description>
+   <Resolution Name="Default">Consider a design where {0} doesn't require explicit type parameter {1} in any call to it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182150(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716">
+   <Name>Identifiers should not match keywords</Name>
+   <Description>Identifiers which conflict with reserved language keywords should be avoided. Using a reserved keyword as an identifier makes it harder for consumers in other languages to use your API.</Description>
+   <Resolution Name="Type">Rename type {0} so that it no longer conflicts with the reserved language keyword '{1}'. Using a reserved keyword as the name of a type makes it harder for consumers in other languages to use the type.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182248(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>Mark assemblies with CLSCompliantAttribute</Name>
+   <Description>Assemblies should explicitly state their CLS compliance using the CLSCompliant attribute. An assembly without this attribute is not CLS-compliant. Assemblies, modules, and types can be CLS-compliant even if some parts of the assembly, module, or type are not CLS-compliant. The following rules apply: 1) If the element is marked CLSCompliant, any noncompliant members must have the CLSCompliant attribute present with its argument set to false. 2) A comparable CLS-compliant alternative member must be supplied for each member that is not CLS-compliant.</Description>
+   <Resolution Name="Default">Mark {0} with CLSCompliant(true) because it exposes externally visible types.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182156(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307">
+   <Name>Specify StringComparison</Name>
+   <Description>If an overload exists that takes a StringComparison argument, it should always be called in favor of an overload that does not.</Description>
+   <Resolution Name="Default">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb386080(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724">
+   <Name>Type names should not match namespaces</Name>
+   <Description>Identifiers which conflict in whole or in part with namespace names should be avoided. Names that describe the purpose or contents of a type are preferred.</Description>
+   <Resolution Name="Default">The type name {0} conflicts in whole or in part with the namespace name '{1}'. Change either name to eliminate the conflict.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182257(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
